@@ -1,0 +1,226 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar{
+    padding: 0;
+}
+.navbar img{
+    width: 80%;
+    height: 80%;
+}
+.navigation-wrap.scroll-on{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.main-btn{
+    padding: 5px;
+    margin-top: -5px;
+    border: 1px solid rgb(168, 44, 72);
+    color: rgb(168, 44, 72);
+    font-weight: bold;
+    background: white;
+    transition: 1s;
+}
+.main-btn:hover{
+    background-color: rgb(168, 44, 72);
+    color: white;
+    border: 1px solid rgb(252, 252, 252);
+
+}
+.secondary-btn{
+    padding: 5px;
+    margin-top: -5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 1s;
+    background: white;
+    box-shadow: 0 0 5px black ;
+    border: none;
+}
+.secondary-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(168, 44, 72);
+    border: none;
+}
+.top-banner{
+    width: 100%;
+    background: url("../img/Pengertian-Sekolah.jpg") no-repeat;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+.counter-section{
+    background-color: rgb(168, 44, 72);
+    padding: 2.5rem 0;
+    color: white;
+}
+.counter-section p{
+    color: white;    
+    text-transform: uppercase;
+}
+.about-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.about-section .card, 
+.about-section .card img{
+    border-radius: 0.25rem;
+}
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    line-height: 32px;
+    position: relative;
+    font-weight:bold;
+    list-style: none;
+}
+.story-section{
+    width:100%;
+    background: url("../img/bg/bg-2.jpg") no-repeat center;
+    text-align: center;
+}
+.story-section h2{
+    color:rgb(168, 44, 72) ;
+}
+.explore-section{
+    text-align: center;
+
+}
+.explore-section h2{
+    color:rgb(168, 44, 72) ;
+}
+.explore-section .card{
+    text-align: left;
+    border-radius: 0.9375rem;
+}
+.explore-section .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+.explore-section .card span{
+    display: block;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid white;
+    color:rgb(168, 44, 72) ;
+
+}
+.explore-section .card span del{
+        color: gray;
+        margin-left: 0.5rem;
+}
+.testimonial-section{
+    background-color:rgb(168, 44, 72) ;
+    color: black;
+}
+
+
+
+.testimonial-section  h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+    color: white;
+}
+.testimonial-section h2::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: white;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+    opacity: .8;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel p{
+	color: white;
+}
+.carousel-item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.container-data {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Untuk layar berukuran kecil (seperti perangkat seluler) */
+@media only screen and (max-width: 600px) {
+    .data-table {
+        border: 0;
+    }
+    .data-table thead {
+        display: none;
+    }
+    .data-table tr {
+        border-bottom: 2px solid #ddd;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .data-table td {
+        border-bottom: 0;
+        display: block;
+        text-align: right;
+    }
+    .data-table td:last-child {
+        border-bottom: 0;
+    }
+}
